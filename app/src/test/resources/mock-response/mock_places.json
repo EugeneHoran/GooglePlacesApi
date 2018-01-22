@@ -1,0 +1,29 @@
+{
+  "next_page_token": "CqQCGwEAALhIxRy3PvdKd2PyMH8BN_D8SvnLmrCbhbVkppOCNSqzLEMDdPh-vFLhoRKPtDihIHYcqRe2vrEnRyY7zn-gT1qRUlhHFgSSkdTfTQJGskgGNMwgJiW34SqDUzbdrgfsShm6MKj9Eau8h9N9jD3f6whn9vHFqJCmhbutCguTzDUs5H9nMrkBgV1YxOfs5EAqaWzCoFGgC-zqkMsivV9HW2-FEzqyfLTv3uT0n5bTcRZ1I4lByp_yPfSVUmdTHlfHpfAsf5ov5jeArwtdOEhBj8Xj3XEaA3UG31gpUAyvOA-CHz0Ru4X_kzxqbmL8l9FaRXvMtVT0yokE87V2eMvkXNPGyvZViaP9_aYZTzxbmGOWVHSddj3d0oKyIuTGZMmDtxIQ7QQ6QICbRt2zAICmAesMZBoUI4qOiKbFhndePy424JbgEAJFR98",
+  "status": "OK",
+  "results": [
+    {
+      "id": "a90be7ca8c61b021e672503a68935247a45ec11a",
+      "name": "The Tower Hotel",
+      "photos": [
+        {
+          "height": 1366,
+          "photo_reference": "CmRaAAAAyJLMTbmOUoh5m0TLCOkCR89tTMRu6moafjwr3x70b7EBhvmeOPEHBhnVRo2tmrE9l-MZ1UUSUFRXs49aFF6KgRehImjSXWGr5S7Q38cuoca_HwQbnZPBNvhpiTT7IHdiEhBO8jFDiwPMMXpFq8LYpvkwGhSFPTTYQGucyOLWp9XeCM-OnTu08Q",
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJN8TLJEgDdkgRLEFtFv_mVcs",
+      "rating": 4.2,
+      "vicinity": "Saint Katharine's Way, London"
+    },
+    {
+      "id": "1f0ff5be2579c791786fbe7171c942fa3052bd4d",
+      "name": "Apex City of London Hotel",
+      "photos": [
+      ],
+      "place_id": "ChIJS6BnX6scdkgRZRvjBscyBtc",
+      "rating": 4.5,
+      "vicinity": "1 Seething Lane, London"
+    }
+  ]
+}

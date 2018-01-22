@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="RtlHardcoded,ContentDescription,UnusedAttribute,RtlSymmetry">
+
+    <data>
+
+        <variable
+            name="review"
+            type="eugene.com.transferwise.db.entity.DetailsReview" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:elevation="1dp"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            loadCircleImage="@{review.profilePhotoUrl}"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_toRightOf="@+id/profileImage"
+            android:alpha=".87"
+            android:fontFamily="sans-serif-medium"
+            android:text="@{review.authorName}"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/profileImage"
+            android:max="5"
+            android:rating="@{review.rating}" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="8dp"
+            android:text="@{review.relativeTimeDescription}"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:layout_toRightOf="@+id/profileImage"
+            android:alpha=".87"
+            android:fontFamily="sans-serif"
+            android:paddingTop="12dp"
+            android:text="@{review.text}"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.place.PlacesActivity">
+
+    <data>
+
+        <variable
+            name="listener"
+            type="eugene.com.transferwise.ui.place.list.PlaceListRecyclerAdapter.PlaceClickCallback" />
+
+        <variable
+            name="place"
+            type="eugene.com.transferwise.db.entity.Place" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackground"
+        android:onClick="@{() -> listener.onPlaceClick(place)}"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="72dp"
+            android:background="@color/colorTransparentLight"
+            android:contentDescription="@null"
+            android:padding="28dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_local_dining" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="108dp"
+            android:layout_height="72dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            app:imageUrl="@{place.displayPhotoUrl}" />
+
+        <TextView
+            android:id="@+id/placeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="124dp"
+            android:layout_marginStart="124dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@{place.name}"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/placeVicinity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/placeName"
+            android:layout_marginLeft="124dp"
+            android:layout_marginStart="124dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@{place.vicinity}"
+            android:textSize="14sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/placeVicinity"
+            android:layout_marginLeft="124dp"
+            android:layout_marginStart="124dp"
+            android:max="5"
+            android:minHeight="22dp"
+            android:rating="@{place.rating}" />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute,RtlHardcoded">
+
+    <data>
+
+        <variable
+            name="time"
+            type="eugene.com.transferwise.model.DetailItemTime" />
+    </data>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="1dp"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="6dp"
+        android:paddingLeft="56dp"
+        android:paddingRight="16dp"
+        android:paddingTop="0dp"
+        android:text="@{time.text}"
+        android:textSize="12sp" />
+
+</layout>

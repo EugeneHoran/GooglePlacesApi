@@ -1,0 +1,181 @@
+{
+  "result": {
+    "formatted_address": "St Katharine's Way, St Katharine's & Wapping, London E1W 1LD, UK",
+    "formatted_phone_number": "0800 330 8005",
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id": "a90be7ca8c61b021e672503a68935247a45ec11a",
+    "international_phone_number": "+44 800 330 8005",
+    "name": "The Tower Hotel",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "time": "0000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ]
+    },
+    "photos": [
+      {
+        "height": 1366,
+        "html_attributions": [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/117845116291138430458/photos\"\u003eThe Tower Hotel\u003c/a\u003e"
+        ],
+        "photo_reference": "CmRaAAAADIFt9y6e04paTnlZxsBm8AKMmgJGYkmO31cRNkg1Vo8NBWvc0-AoyTfTF3vTtr9H8I7gKvSU7ogzUrJvtazeGlzkHHQsvwFt5WXZCIYwfrh92pYMB4eSJQZs0JC52ZWVEhCqOomy_N1Jly1Wq2UOJ3pNGhT8X36EDXEkvdK2EoEbmRiQXTI12Q",
+        "width": 2048
+      },
+      {
+        "height": 1810,
+        "html_attributions": [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/117845116291138430458/photos\"\u003eThe Tower Hotel\u003c/a\u003e"
+        ],
+        "photo_reference": "CmRaAAAAxDW8OVj2O81JlGiUZ87NpNZbiZua40Ll5NMhgv62hyvauOa7AZXeWT2mwJHH1KVSoOD4q9nrwYK8QlYwgoNObR9qYTifUm717B0mjgKNlk_s--W3sxhRfN9CJGSdHAffEhAVsQEXWxEjE2efeldiJye4GhRi2poUCD7yT_rAQ1UARkqM01ZFLg",
+        "width": 2896
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/111538519520760681479/photos\"\u003eRia van der Linden\u003c/a\u003e"
+        ],
+        "photo_reference": "CmRaAAAAutZiwBwd_6thdSSfjIhxN0zcwYKP4Zj5cOnFlr7BreHovx1fjCev-R0LDNnMeo4AUaZB99bHO28vZZ2R1qaRebenVeTu4NGs91NBl2MAQ5mHXvubByBmirUY_Nwo1pJUEhBt0F-64lWru2H_Z34GVMfgGhQed09ncfgvJ3eOY-j00liKTJMUmg",
+        "width": 3024
+      },
+      {
+        "height": 1931,
+        "html_attributions": [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/117845116291138430458/photos\"\u003eThe Tower Hotel\u003c/a\u003e"
+        ],
+        "photo_reference": "CmRaAAAAJfC3mSTSNpjoDh5Ept4k9Ijr0ophnVjiGL7oL1M0s59MT6_yRVwQZsbgaRCnNeWghfGuDGtkaH5r_pz0wd4vN4p-7ScO-jxDyS1kBM7Mnyti6oOM7bOshFk-pLEa5HEVEhDhXotsVi4IkCb9yA-BAVhgGhRJ6UgNfIaE3MetHMLjdCQlvMqtbQ",
+        "width": 2896
+      },
+      {
+        "height": 1931,
+        "html_attributions": [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/117845116291138430458/photos\"\u003eThe Tower Hotel\u003c/a\u003e"
+        ],
+        "photo_reference": "CmRaAAAA_JTIDH-lT01nnagOGmX8huRzb82ex7R03eHgFWi4gt02YTBfTvWtP-lwr9ENXrrMU6CbWd9UYRriYW_C-vQa8A3oxjMCj02xjVztq-hwFHjQ7_8kHh0aNUrTYVwXyGnsEhAzhRIYfFzYZmxc7IPBmapsGhSBgYdgElVEEiWK8YiiMWRCUuKp8w",
+        "width": 2896
+      },
+      {
+        "height": 1931,
+        "html_attributions": [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/117845116291138430458/photos\"\u003eThe Tower Hotel\u003c/a\u003e"
+        ],
+        "photo_reference": "CmRaAAAA2iWb_WO_ofqHNHoRGKe20uwSaLqXqZnDv3PaNBqawEroZprDirbXujYJGdUyhZ4Wp9nekUQ7XQ2JIEk_n5GIBt6DOHvdVPuBu2WZqwjiR13oPSwnvWTLYwUPs7p3wZ1XEhBnqTxHpmX2UtTW19KqoHehGhTCuOGSZPI67Hez7OSpwhVIQ3aR7g",
+        "width": 2896
+      },
+      {
+        "height": 1931,
+        "html_attributions": [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/117845116291138430458/photos\"\u003eThe Tower Hotel\u003c/a\u003e"
+        ],
+        "photo_reference": "CmRaAAAApX5zbI0Ohr7tuvz3Eebthk9aLhXPhploTkrqeY2s_lGxGxsEaQaDo4RfusLaE9llMyg8N4ZyPrlDyYpHQt24gYjPKy6-7RkYXTjhHrPE82OG1mG1wkcA9kKMLnXLzxG3EhBlkDy5uMU_bvgVB2JGSIMRGhR65HcxqpWp8oVqNUtlD5_cAX6B3w",
+        "width": 2896
+      },
+      {
+        "height": 1782,
+        "html_attributions": [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/117845116291138430458/photos\"\u003eThe Tower Hotel\u003c/a\u003e"
+        ],
+        "photo_reference": "CmRaAAAAhdga5GZFb8xoCy8BHtv44fUlphUxOJoik8hAfchBcaMCw-bUwqK6rf0-STGrCP9hXj-bkNg7hyCsQ17iJKe-_5LqeXSzcvC3Z0ejXSh3WQvNZCAGtajrOErKZkSwfTBQEhBL8WH-MYuQn0RVAA684UbhGhQAtWMo5zigDuTrHu8J2S2JdLHXZg",
+        "width": 2896
+      },
+      {
+        "height": 1931,
+        "html_attributions": [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/117845116291138430458/photos\"\u003eThe Tower Hotel\u003c/a\u003e"
+        ],
+        "photo_reference": "CmRaAAAAzFUuSOv8Tgrjal0NZpcPrBpAnvIg9i3_cQxYV7ZVGhyyf_MtF7A5W_uYQS1FWc5JLrT8ObudsFXH4rClXwB9odWWGGhU5CCxT5zWGJ4uzY3SvMONfuurxjz9Het19Fw8EhDS_-DHO1e_r6ycyDEfywrNGhRLcUZmnuaf1Sa_mNoZbJAMzU3fKw",
+        "width": 2896
+      },
+      {
+        "height": 1931,
+        "html_attributions": [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/117845116291138430458/photos\"\u003eThe Tower Hotel\u003c/a\u003e"
+        ],
+        "photo_reference": "CmRaAAAAH5V2gEXPhmsKSn42dB9sz8qSbUPHkiBeNnUS4ohfvyEImkqF3ikI5UL1pBx-ELCDc7cauV-7NfzIomKU1u7zjYtnqNNDcpSTQPyfQqtMoXgPZho4Sl82r1jOjo-XVXTEEhA6sFvYSiohLeAjkuA_NS4JGhT7ivXb69zfcpRW2UBFEDMSxYt7vg",
+        "width": 2896
+      }
+    ],
+    "place_id": "ChIJN8TLJEgDdkgRLEFtFv_mVcs",
+    "rating": 4.2,
+    "reference": "CmRSAAAAUEt2OTsRD5q4iyN5CWUniaiERl8yJ0BqxTswEkc3x-6J7ZsAhorS0_rCNcCsa14IJ3gAPxLgZopi9dIaPWNxVn5Ggq0waYgje4M9uNXbSZWPoXI7seUgn5kPTvO_ucyREhDreRMVCJG_IS9EHMnrzBUtGhT8UxCMu7rtEt0v5WKzCFmgOtjjMQ",
+    "reviews": [
+      {
+        "author_name": "Jannat Shah",
+        "author_url": "https://www.google.com/maps/contrib/100614628655874391458/reviews",
+        "language": "en",
+        "profile_photo_url": "https://lh6.googleusercontent.com/-v4w4J60-rJk/AAAAAAAAAAI/AAAAAAAAMyw/odOZONmBLJk/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+        "rating": 3,
+        "relative_time_description": "3 weeks ago",
+        "text": "Considering that we had our wedding reception on premises, staff were cold and unhelpful. They saw me enter and check in in a wedding dress, carrying a suitcase and didn't even offer to help us to our room, or with our baggage behind us!\n\nOur event managers were great at dealing with them, but the hotel staff themselves were extremely standoffish with us. Giving at least 3 stars because the facilities are nice.\n\nDidn't have hot water in our room and the shower was really odd, but given the helpful nature of the staff, there was really no point in getting help. We were meant to have an executive breakfast but they gave us a basic one. Such apathy on their part!",
+        "time": 1514587700
+      },
+      {
+        "author_name": "Nana Andrade",
+        "author_url": "https://www.google.com/maps/contrib/115857383822972175582/reviews",
+        "language": "en",
+        "profile_photo_url": "https://lh6.googleusercontent.com/-1Kn8raak2yY/AAAAAAAAAAI/AAAAAAABpVI/Zgfyq0exx7o/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+        "rating": 4,
+        "relative_time_description": "2 weeks ago",
+        "text": "This hotel is well located, close to the metro station Tower Hill, so you can move easily. And it's close to one of the most tourist attraction in London: the Tower bridge. The service was polite and formal and very helpful. The room I've been was small and simple but clean and it had everything I needed, including iron.",
+        "time": 1515101674
+      },
+      {
+        "author_name": "Andrew Parish",
+        "author_url": "https://www.google.com/maps/contrib/108155545475243101355/reviews",
+        "language": "en",
+        "profile_photo_url": "https://lh5.googleusercontent.com/-FDunL-0SixI/AAAAAAAAAAI/AAAAAAAAIpg/S2CnwcwQrv8/s128-c0x00000000-cc-rp-mo/photo.jpg",
+        "rating": 4,
+        "relative_time_description": "a month ago",
+        "text": "Another professional event at the Tower hotel... And I'll have to admit that after the last one I was looking forward to it. We were in the same space as last time... The Tower suite and the Bridge suite. I can't remember which was which, but the presentation facility was excellent with decent AV capabilities. For me though, whilst the space outside the presentation area is good, with stunning views of Tower Bridge and the Shard, it wasn't great for what the organisers of the event were trying to use it for. Not a reflection on the hotel by the way. Catering was excellent (a beef dish to die for and really good cookies in the afternoon). Staff were pleasant and helpful. I'm looking forward to when I need to go there for the next event.",
+        "time": 1511535808
+      },
+      {
+        "author_name": "Daniel Glifberg",
+        "author_url": "https://www.google.com/maps/contrib/114841272070888085095/reviews",
+        "language": "en",
+        "profile_photo_url": "https://lh6.googleusercontent.com/-5Za4ea_VC4M/AAAAAAAAAAI/AAAAAAACGao/MRtqvW91TTA/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+        "rating": 4,
+        "relative_time_description": "2 months ago",
+        "text": "Good hotel at a great location\nRegardless of direction you get a great view, of course the best are rooms facing the river. But even in the other direction you get a good view of the newly renovated docks area. Place full of boats and nice places to eat, drink or just have a coffee. \nRooms are of standard quality, clean and tidy. Great beds in my view, on the hard side, which I like personally. \nBreakfast was good, omelet chef on duty, another one I really like. Good selection of fruits and bread.\nFriendly and nice staff.",
+        "time": 1510221299
+      },
+      {
+        "author_name": "moop21",
+        "author_url": "https://www.google.com/maps/contrib/116420938074027844217/reviews",
+        "language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/-pmoN-c_hEtU/AAAAAAAAAAI/AAAAAAAALxA/84Ik4w0Gf1Y/s128-c0x00000000-cc-rp-mo/photo.jpg",
+        "rating": 5,
+        "relative_time_description": "a month ago",
+        "text": "I loved my stay at The Tower, but that may be because I had the best Suite in the whole hotel!\n\n11th Floor, corner Suite overlooking the London Bridge!\n\nThe room was amazing! And looking out the window (day or night) was like looking at a giant postcard of the London Bridge!\n\nThe room was simply fantastic on every level!\n\nAnd the staff (from the Concierge to the Front Desk to Room Service) were all very friendly & accommodating!\n\nWell, done, “Towers,” well done!",
+        "time": 1512205946
+      }
+    ],
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "lodging",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=14651870945987084588",
+    "utc_offset": 0,
+    "vicinity": "Saint Katharine's Way, London",
+    "website": "https://www.guoman.com/en/london/the-tower.html"
+  },
+  "status": "OK"
+}
