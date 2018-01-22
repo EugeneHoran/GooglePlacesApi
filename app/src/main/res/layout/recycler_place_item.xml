@@ -74,7 +74,7 @@
             android:layout_marginStart="124dp"
             android:max="5"
             android:minHeight="22dp"
-            android:rating="@{place.rating}" />
+            android:rating="@{place.rating !=null ? safeUnbox(place.rating): 0f}" />
 
     </RelativeLayout>
 </layout>

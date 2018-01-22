@@ -18,14 +18,14 @@
         android:orientation="vertical">
 
         <Space
+            visibility="@{divider.showSpace}"
             android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:visibility="@{divider.showSpace ? View.VISIBLE : View.GONE}" />
+            android:layout_height="16dp" />
 
         <View
+            visibility="@{divider.showLine}"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorBackground"
-            android:visibility="@{divider.showLine ? View.VISIBLE : View.GONE}" />
+            android:background="@color/colorBackground" />
     </LinearLayout>
 </layout>

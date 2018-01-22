@@ -22,7 +22,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            src="@{headerIcon.drawable}"
+            src="@{headerIcon.drawable !=null ? safeUnbox(headerIcon.drawable) : null}"
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginLeft="16dp"

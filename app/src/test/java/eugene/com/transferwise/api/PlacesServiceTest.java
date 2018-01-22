@@ -95,7 +95,6 @@ public class PlacesServiceTest {
         Place place2 = placeList.get(1);
         assertThat(place2.getPlaceId(), is("ChIJS6BnX6scdkgRZRvjBscyBtc"));
         assertThat(place2.getPhotos().size(), is(0));
-
     }
 
     @Test

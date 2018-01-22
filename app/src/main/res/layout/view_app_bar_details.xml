@@ -6,8 +6,6 @@
 
     <data>
 
-        <import type="android.view.View" />
-
         <variable
             name="hasPhotos"
             type="Boolean" />
@@ -52,22 +50,22 @@
 
             <android.support.v4.view.ViewPager
                 android:id="@+id/pager"
+                visibility="@{safeUnbox(hasPhotos)}"
                 android:layout_width="match_parent"
                 android:layout_height="256dp"
                 android:layout_marginBottom="16dp"
                 android:background="@color/colorTransparentLight"
                 android:fitsSystemWindows="true"
-                android:visibility="@{hasPhotos ? View.VISIBLE : View.GONE, default = visible}"
                 app:layout_collapseMode="parallax"
                 app:layout_collapseParallaxMultiplier="-.3" />
 
             <com.github.vivchar.viewpagerindicator.ViewPagerIndicator
                 android:id="@+id/indicator"
+                visibility="@{safeUnbox(hasPhotos)}"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|bottom"
                 android:layout_marginBottom="56dp"
-                android:visibility="@{hasPhotos ? View.VISIBLE : View.GONE, default = visible}"
                 app:delimiterSize="4dp"
                 app:itemScale="1.5"
                 app:itemSelectedTint="@color/colorPrimary"
@@ -106,7 +104,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginStart="12dp"
                 android:max="5"
-                android:rating="@{details.rating}"
+                android:rating="@{details.rating !=null ? safeUnbox(details.rating) : 0f}"
                 android:stepSize="0.1" />
 
             <TextView

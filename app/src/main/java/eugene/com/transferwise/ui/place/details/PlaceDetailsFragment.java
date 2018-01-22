@@ -21,7 +21,6 @@ import eugene.com.transferwise.model.PlaceDetailsData;
 import eugene.com.transferwise.repository.DetailsRepository;
 import eugene.com.transferwise.ui.common.BaseFragment;
 import eugene.com.transferwise.util.AppFactory;
-import eugene.com.transferwise.util.view.ZoomOutPageTransformer;
 
 @SuppressLint("VisibleForTests")
 public class PlaceDetailsFragment extends BaseFragment implements View.OnClickListener {
@@ -78,7 +77,6 @@ public class PlaceDetailsFragment extends BaseFragment implements View.OnClickLi
         binding.appBar.setHasPhotos(hasPhotos);
         binding.setFragment(this);
         binding.appBar.toolbar.setOnClickListener(this);
-        binding.appBar.pager.setPageTransformer(true, new ZoomOutPageTransformer());
         binding.appBar.pager.setAdapter(pagerAdapter);
         binding.recycler.setAdapter(adapter);
         observeDetailsNew(model);

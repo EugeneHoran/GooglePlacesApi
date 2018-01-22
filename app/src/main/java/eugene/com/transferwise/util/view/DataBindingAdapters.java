@@ -1,9 +1,11 @@
 package eugene.com.transferwise.util.view;
 
 import android.databinding.BindingAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
@@ -27,7 +29,10 @@ public class DataBindingAdapters {
     }
 
     @BindingAdapter("src")
-    public static void setImageResource(ImageView imageView, int resource) {
+    public static void setImageResource(ImageView imageView, Integer resource) {
+        if (resource == null) {
+            return;
+        }
         imageView.setImageResource(resource);
     }
 
@@ -44,6 +49,15 @@ public class DataBindingAdapters {
     public static void addRecyclerDivider(RecyclerView recycler, boolean hasDivider) {
         if (hasDivider) {
             recycler.addItemDecoration(new DividerItemDecoration(recycler.getContext(), DividerItemDecoration.VERTICAL));
+        }
+    }
+
+    @BindingAdapter("visibility")
+    public static void setVisibility(View view, Boolean show) {
+        if (show != null) {
+            view.setVisibility(show ? View.VISIBLE : View.GONE);
+        } else {
+            view.setVisibility(View.GONE);
         }
     }
 }
